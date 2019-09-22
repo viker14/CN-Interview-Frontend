@@ -1,0 +1,234 @@
+/*
+  Add styles here...
+*/
+
+body {
+	background: #F0F2F8;
+}
+
+#menu-btn {
+	cursor: pointer;
+}
+
+.material-icons {
+	display: none;
+}
+
+nav {
+	background: #000;
+	height: 52px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	z-index: 999;
+	;
+}
+
+.logo .logo-img {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: #fff;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.links a {
+	text-decoration: none;
+	padding: 0 10px;
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 12px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+.left-filter {
+	background: #FFFFFF;
+	position: fixed;
+	width: 25%;
+	height: 100%;
+	box-shadow: 0 10px 10px #333;
+	left: 0;
+	top: 52px;
+	overflow-y: scroll;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.left-filter div {
+	margin: 20px 0;
+	font-family: sans-serif;
+}
+
+.filter-box {
+	margin: 0 auto;
+}
+
+.filter-box label,
+.filter-box input {
+	width: 100%;
+}
+
+.filter-box label {
+	color: #6EAAFF;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.filter-box input {
+	height: 40px;
+	background: #FAFAFA;
+	border: 1px solid #DFDFDF;
+	border-radius: 3px;
+}
+
+.filter-buttons {
+	text-transform: uppercase;
+	color: #6EAAFF;
+	font-size: 14px;
+}
+
+.filter-buttons button {
+	background: transparent;
+	border: 1px solid #77B0FF;
+	padding: 10px 20px;
+	cursor: pointer;
+	color: #6EAAFF;
+	border-radius: 5px;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+
+.right-content {
+	position: relative;
+	width: 70%;
+	float: right;
+	top: 52px;
+}
+
+.box {
+	width: 214px;
+	box-shadow: 0px 0px 2px #999;
+	;
+	float: left;
+	margin: 20px 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background: #FFFFFF;
+}
+
+.image-section {
+	width: 100%;
+	height: 130px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.price {
+	font-size: 11px;
+	background: #4C4C4C;
+	color: #ffffff;
+	padding: 5px;
+	display: inline-block;
+	margin: 6px 0 0 8px;
+	border-radius: 3px;
+	font-family: sans-serif;
+}
+
+.car {
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 20px;
+}
+
+.car p {
+	margin: 0;
+	padding: 0;
+}
+
+.model {
+	color: #000;
+	font-size: 14px;
+}
+
+.drive {
+	font-size: 10px;
+	margin-bottom: 2px !important;
+}
+
+.serial {
+	font-size: 10px;
+}
+
+.colors {
+	font-size: 8px;
+	color: #9E9E9E;
+}
+
+.car-price {
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	margin: 10px 0;
+}
+
+.car-price .label {
+	text-transform: capitalize;
+	font-size: 9px;
+	color: #9E9E9E;
+}
+
+.actual-price {
+	color: #5099ff;
+	font-size: 18px;
+}
+
+.car-price div {
+	display: inline-block;
+	float: left;
+	padding: 0 10px;
+}
+
+.personalize {
+	background: #5099FF;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 0 0 5px 5px;
+}
+
+.personalize a {
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+	.left-filter {
+		position: fixed;
+		z-index: 999;
+		width: 40%;
+		display: none;
+	}
+	.right-content {
+		width: 85%;
+	}
+	.material-icons {
+		display: inline-block;
+		color: #ffffff;
+	}
+}
